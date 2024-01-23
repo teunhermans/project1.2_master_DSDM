@@ -1,0 +1,63 @@
+# Ignore MacOS files
+.DS_Store
+
+# Ignore logs
+*.log
+
+.idea
+data
+
+luce_vm/js/node_modules/
+
+# Ignore database and migrations
+luce_vm/luce_django/luce/db.sqlite3
+luce_vm/luce_django/luce/accounts/migrations/*
+luce_vm/luce_django/luce/blockchain/migrations/*
+luce_vm/luce_django/luce/privacy/migrations/*
+luce_vm/brownie/build
+luce_vm/luce_django/luce/docs/_build
+luce_vm/scripts/simulation/images/*
+# luce_vm/luce_django/luce/docs/_static
+# luce_vm/luce_django/luce/docs/_templates
+
+
+# Exlude internal vagrant directories
+luce_vm/.vagrant/*
+test_vm/.vagrant/*
+django_vm/.vagrant/*
+**/.vagrant/*
+
+#exclude migrations
+luce_vm/luce_django/luce/accounts/migrations/*
+
+# Exlude django cache directories
+test_vm/django/dapp/__pycache__/*
+**/__pycache__/**
+**/static_cdn_local/static/**
+
+# Exclude jupyter checkpoints directory
+luce_vm/jupyter/.ipynb_checkpoints/*
+**/jupyter/.ipynb_checkpoints/*
+
+# Exclude safe storage area
+luce_vm/jupyter/safe_storage_area/**
+
+# Exclude all files of a certain filetype
+**.icloud
+**.sublime-workspace
+**.sublime-project
+**.box 
+# Track again later via Git LFS?
+
+# Exclude specific files/folders
+nohup.out
+ubuntu-xenial-16.04-cloudimg-console.log
+ my_files/**
+
+# Exclude Django VM
+ django_vm/**
+ luce_vm/**
+/luce_wild/**
+
+js/node_modules/
+.vscode/

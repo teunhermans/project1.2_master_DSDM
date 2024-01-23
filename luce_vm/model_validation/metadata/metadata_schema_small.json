@@ -1,0 +1,26 @@
+{
+    "dataset_id": "unique_dataset_identifier",
+    "dataset_name": "short_descriptive_name",
+    "dataset_description": "longer_description_of_dataset",
+    "creation_time": "timestamp",
+    "last_modified_time": "timestamp",
+    "dataset_version": "version_number",
+    "submission_set": {
+        "submission_id": "unique_submission_id",
+        "submission_time": "timestamp"
+    },
+    "dataset_specific_metadata": {
+        "num_samples": "number_of_samples",
+        "features": [
+            {
+                "feature_name": "feature_1",
+                "feature_type": "type_of_feature",
+                "data_type": "data_type_of_feature",
+                "feature_description": "description_of_feature",
+                "missing_values_proportion": "proportion_of_missing_values",
+                "categories": "list_of_unique_values_if_categorical",
+                "category_counts": "number_of_occurrences_of_each_unique_value_if_categorical"
+            }
+        ]
+    }
+}

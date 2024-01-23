@@ -1,0 +1,16 @@
+{
+    "dataset_id": "unique_dataset_identifier",
+    "dataset_name": "short_descriptive_name",
+    "dataset_description": "longer_description_of_dataset",
+    "creation_time": "timestamp",
+    "last_modified_time": "timestamp",
+    "dataset_version": "version_number",
+    "submission_set": "unique_submission_id",
+    "dataset_specific_metadata": NaN,
+    "developer": "Developer Address",
+    "owner": "Owner Address",
+    "date": "23/11/2013",
+    "state": "Pre-Market: in evaluation",
+    "claim": "9ed4fcc2c3eaae51f852fe97150173694778aaf4c140df0b275cb0c0ff2c57d5",
+    "link": "file:///home/maria/Documents/Master%20Program%20UM/Research%20Project/Sem%201/LUCE_Model_Monitoring-main/model_card_Random%20Forest.html"
+}
